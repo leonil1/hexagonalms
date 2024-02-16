@@ -15,6 +15,6 @@ public interface ClientReniec {
                                  @RequestHeader("Authorization") String authorizationheader);
     @GetMapping("/ruc")
     ResponseEmpresa getInfoReniecEmpresa(@RequestParam("numero") String numero,
-                                         @RequestHeader("authorization") String Auauthorizationheader);
+                                         @RequestHeader("Authorization") String Auauthorizationheader);
 
 }
